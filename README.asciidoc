@@ -55,7 +55,7 @@ To run the application install the <<X1,prerequisite packages>> then:
 
   git clone https://github.com/srackham/bottle-mongodb-example.git
   cd bottle-mongodb-example
-  python bottle-mongodb-example.py
+  python main.py
 
 The application creates and displays a paged list of user
 created messages which are stored in a MongoDB database along with
