@@ -74,6 +74,14 @@ the database, tables or schema -- it all happens automatically.
 
   sudo easy_install pymongo
 
+- mongoengine, the Python Object-Document-Mapper for working with MongoDB
+
+  pip install mongoengine
+
+- mako, the Python template library
+
+  pip install mako
+
 - The Bottle web-framework:
 
   git clone https://github.com/defnull/bottle.git

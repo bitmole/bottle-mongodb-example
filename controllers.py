@@ -5,7 +5,10 @@ import cStringIO as StringIO
 from bottle import request, response, get, post
 from bottle import static_file, redirect, HTTPResponse
 from bottle import mako_view as view
-from PIL import Image
+try:
+    from PIL import Image
+except ImportError:
+    import Image
 from pymongo.objectid import ObjectId
 from models import Message
 
